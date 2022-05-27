@@ -1,0 +1,9 @@
+{
+  "name": "callendarApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Cytaa/callendarApp.git",
+  "author": "Piotr Stachnio",
+  "license": "MIT",
+  "private": false
+}
