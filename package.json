@@ -1,9 +1,40 @@
 {
-  "name": "callendarApp",
+  "name": "calendarApp",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:Cytaa/callendarApp.git",
   "author": "Piotr Stachnio",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "dev": "webpack serve --config webpack/webpack.config.js"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.17.12",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.16.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "react-refresh": "^0.13.0",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.7.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
 }
